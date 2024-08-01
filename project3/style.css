@@ -1,0 +1,38 @@
+tr {
+    background-color: antiquewhite;
+    text-align: center;
+}
+table {
+    border: 1pt solid black;
+    border-collapse: collapse;
+    white-space: nowrap;
+}
+.center {
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+td,th {
+    border: 1pt solid black;
+    padding: 2pt 10pt 2pt 10pt;
+}
+th {
+    background-color: #A9EEF5;
+}
+tr:nth-child(even){
+    background-color: #A9EEF5;
+}
+tr:nth-child(odd){
+    background-color: azure;
+}
+.total {
+    text-align: right;
+}
+.department {
+    background-color: azure;
+    font-weight: bold;
+    vertical-align: top;
+}
+.employee {
+    text-align: center;
+}

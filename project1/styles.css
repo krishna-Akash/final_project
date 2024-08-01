@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdf2f0;
+    color: #4e0000;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #7f0000;
+    margin: 20px 0;
+}
+
+div {
+    margin: 20px auto;
+    width: 50%;
+    padding: 20px;
+    border: 2px solid #7f0000;
+    border-radius: 10px;
+    background-color: #ffe4e1;
+}
+
+label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    margin-right: 20px;
+    padding: 5px;
+    border: 1px solid #7f0000;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #7f0000;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #4e0000;
+}
+
+#results {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #7f0000;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+h2 {
+    color: #7f0000;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #7f0000;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #7f0000;
+    color: #fff;
+}
+
+td {
+    background-color: #ffe4e1;
+}
+
+#error1, #error2 {
+    color: red;
+    font-weight: bold;
+}

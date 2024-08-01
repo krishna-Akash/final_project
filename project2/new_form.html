@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="new_form.css">
+</head>
+<body>
+    <form id="form-a" action="submit.html">
+        <h1 class="title">Please complete our survey</h1>
+        <div class="border"></div>
+        <h2>Contact information</h2>
+        <label for="mail">Email address: </label>
+        <input id="mail" type="email"  name="email" autofocus><br>
+        <label for="firstname">First name:</label>
+        <input id="firstname" type="text" name="firstname"><br>
+        <label for="lastname">Last name:</label>
+        <input id="lastname" type="text" name="lastname"><br>
+        <div class="border"></div>
+
+        <h2>Geographic information</h2>
+        <label for="state">State: </label>
+        <select name="state">
+            <option value="al">Alabama</option>
+            <option value="ny">NewYork</option>
+            <option value="tx">Texas</option>
+            <option value="oh">Ohio</option>
+        </select><br>
+        <label for="zip">Zip Code: </label>
+        <input id="zip" type="number" maxlength="5" placeholder="Five Digits" name="zip"><br>
+        <div class="border"></div>
+
+        <h2>How did you hear from us?</h2>
+        <label for="web">Web Search</label>
+        <input type="checkbox" id="web" name="web"><br>
+        <label for="facebook">Facebook</label>
+        <input type="checkbox" id="facebook" name="facebook"><br>
+        <label for="twitter">Twitter</label>
+        <input type="checkbox" id="twitter" name="twitter"><br>
+        <label for="email">Email Message</label>
+        <input type="checkbox" id="email" name="email"><br>
+        <div class="border"></div>
+
+        <h2>Thank you for taking our survery!</h2><br>
+        <div>
+        <button class="submit">Submit</button>
+        <button class="reset">Reset</button>
+        </div>
+
+    </form>
+</body>
+</html>

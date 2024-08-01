@@ -1,0 +1,32 @@
+form {
+    margin: 20pt;
+    border: 2px rgb(48, 97, 187) solid;
+    padding: 5pt 15pt 15pt 15pt;
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label, h1 {
+    color: rgb(48, 97, 187);
+}
+
+.submit,.reset {
+    background-color: rgb(128, 235, 238);
+    width: 7em;
+}
+.submit {
+    margin-left: 13.5em;
+}
+.border {
+    margin-top: 10pt;
+    border: 2px dotted rgb(77, 171, 214);
+}
+input,select {
+    margin-bottom: 5px;
+}
+label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+  }
